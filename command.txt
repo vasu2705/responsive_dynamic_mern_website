@@ -1,0 +1,8 @@
+
+D:\Documents\html css js\code with harry\responsive_dynamic>mkdir src
+
+D:\Documents\html css js\code with harry\responsive_dynamic>cd src
+
+D:\Documents\html css js\code with harry\responsive_dynamic\src>type nul>app.js
+
+D:\Documents\html css js\code with harry\responsive_dynamic\src>

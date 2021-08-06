@@ -1,0 +1,24 @@
+{
+  "name": "responsive_dynamic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js,hbs",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "vasudev kanungo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.6.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "jquery": "^3.6.0",
+    "mongoose": "^5.12.3",
+    "nodemon": "^2.0.12",
+    "validator": "^13.5.2"
+  }
+}
