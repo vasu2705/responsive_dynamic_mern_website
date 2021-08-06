@@ -2,6 +2,7 @@ const express = require("express");
 const path = require("path");
 var bodyParser = require("body-parser");
 const hbs = require("hbs");
+const dotenv = require("dotenv");
 const { registerPartials } = require("hbs");
 require("./src/db/conn");
 const User = require("./src/models/user_dynamic_feedback");
@@ -13,7 +14,7 @@ const app = express();
 const staticpath = path.join(__dirname, "./public");
 const templatepath = path.join(__dirname, "./templates/views");
 const partialpath = path.join(__dirname, "./templates/partials");
-
+dotenv.config({ path: "./config.env" });
 //middleware
 app.use(
   `/css`,
