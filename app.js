@@ -7,7 +7,7 @@ require("./src/db/conn");
 const User = require("./src/models/user_dynamic_feedback");
 const app = express();
 
-const port = process.env.Port || 3000;
+
 
 //setting up path
 const staticpath = path.join(__dirname, "./public");
@@ -54,6 +54,6 @@ app.post("/contact", async (req, res) => {
   }
 });
 
-app.listen(port, () => {
-  console.log(`the application started successfully on port ${port}`);
+app.listen(process.env.Port || 3000, () => {
+  console.log(`the application started successfully on port 3000`);
 });
