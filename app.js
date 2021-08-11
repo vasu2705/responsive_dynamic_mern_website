@@ -55,6 +55,6 @@ app.post("/contact", async (req, res) => {
   }
 });
 
-app.listen(process.env.Port || 3000, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log(`the application started successfully on port 3000`);
 });
